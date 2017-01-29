@@ -1,0 +1,6 @@
+node_modules
+bower_components
+/public
+/dist
+test.sjs
+npm-debug.log
