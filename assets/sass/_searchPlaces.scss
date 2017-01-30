@@ -1,0 +1,122 @@
+/*
+* Google Places Searching
+*/
+
+.fbHead {
+    text-align: center;
+}
+#fb {
+    background: #E9EAED;
+    padding: 1px 0;
+    width: 70%;
+    margin: 0 auto;
+
+    .postStatus {
+        input {
+            width: 98%;
+            margin: 10px 0 0 10px;
+            height: 40px;
+            line-height: 40px;
+            padding: 10px;
+        }
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    .feeds {
+        width: 100%;
+        & > li {
+            background: #fff;
+            border-radius: 3px;
+            border: 1px solid #f1f1f1;
+            padding: 10px;
+            margin: 10px;
+            header {
+                background: #fff;
+                h4   {
+                    display: inline-block;
+                    margin: 10px;
+                    vertical-align: middle;
+                    a {
+                        color: #3b5998;
+                    }
+                }
+            }
+            .msg {
+                padding: 20px 0 10px;
+            }
+            .link, .photo {
+                text-align: center;
+                a {
+                    width: 80%;
+                    display: inline-block;
+                    img {
+                        width: 80%;
+                        height: 400px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+            .actions {
+                border-bottom: 1px solid #dde2e9;
+                border-top: 1px solid #dde2e9;
+                padding: 10px 0;
+                a {
+                    color: #7f7f7f;
+                    margin-right: 20px;
+                }
+            }
+            footer {
+                background: #f6f7f8;
+                padding: 10px 0;    
+                .comments {
+                    li {
+                        & > img {
+                            vertical-align: super;
+                            width: 40px;
+                            height: 40px;
+                            & + div {
+                                display: inline-block;
+                                h5 {
+                                    display: inline-block;
+                                    margin: 10px;
+                                    vertical-align: middle;
+                                    a {
+                                        color: #3b5998;
+                                    }
+                                }
+                                .commentMsg {
+                                    display: inline-block;
+                                    margin-left: 10px;
+                                }
+                            }
+                        }
+                        .commentActions {
+                            margin-left: 10px;
+                            a {
+                                color: #7f7f7f;
+                                margin-right: 20px;
+                            }
+                        }
+                    }
+                }
+                .writeComment {
+                    margin: 10px;
+                    img {
+                        width: 35px;
+                        height: 35px;
+                        vertical-align: bottom;
+                    }
+                    input {
+                        width: 94%;
+                        padding: 10px;
+                        float: right;
+                        height: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
