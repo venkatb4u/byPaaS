@@ -1,0 +1,24 @@
+{
+  "base_url" : "http://localhost:1234",
+  "canary_url": "https://canary.bypaas.com/paas",
+  "env": "local",
+  "supported_apps": {
+    "google": {
+      "places": {
+        "key": "",
+        "output_format": "json",
+        "ratelimit": {
+          "max": 300,
+          "duration": 60000
+        }  
+      }
+    },
+    "fullcontact": {
+      "key": "",
+      "ratelimit": {
+        "max": 300,
+        "duration": 60000
+      }
+    }
+  }
+}
